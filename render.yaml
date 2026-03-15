@@ -2,4 +2,7 @@ services:
   - type: web
     name: clasdb
     env: docker
+    # Add these two lines:
+    repo: https://github.com/Aedenntech/laceytownship
+    branch: main
     plan: free
